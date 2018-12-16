@@ -9,7 +9,7 @@ public class TransactionDto {
     private Long id ;
     private String title ;
     private Long amount;
-    private Long sourceAc ;
+    private Long sourceAcc ;
     private Long destinationAcc;
     private Long accountId;
 }

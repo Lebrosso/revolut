@@ -49,7 +49,11 @@ public class DbConnector {
             ResultSet rs = st.executeQuery("SELECT * FROM BANK_TRANSACTION");
             while (rs.next()) {
                 TransactionDto trans =  new TransactionDto();
+                trans.setId(rs.getLong("id"));
                 trans.setTitle(rs.getString("title"));
+                trans.setAmount(rs.getLong("amount"));
+                trans.setSourceAcc(rs.getLong("sourceAcc"));
+                trans.setDestinationAcc(rs.getLong("destinationAcc"));
                 transactions.add(trans);
             }
 

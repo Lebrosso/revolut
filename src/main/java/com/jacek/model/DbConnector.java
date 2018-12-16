@@ -40,7 +40,7 @@ public class DbConnector {
         }
     }
 
-    public static Connection getConnection() throws SQLException, FileNotFoundException {
+    public Connection getAllTransactions() throws SQLException, FileNotFoundException {
 
         Statement st = ds.getConnection().createStatement();
         try {
@@ -56,23 +56,4 @@ public class DbConnector {
         return null;
     }
 
-    public static void createDatabse(Connection conn) throws SQLException {
-        Statement st = conn.createStatement();
-        System.out.println("test");
-        try {
-            System.out.print("name: " + new FileReader("createDb.sql"));
-            st.executeUpdate(String.valueOf(new FileReader("createDb.sql")));
-            ResultSet rs = st.executeQuery("SELECT * FROM Customer");
-
-            while (rs.next()) {
-                // Retrieve by column name
-                int name = rs.getInt("name");
-                // Display values
-                System.out.print("name: " + name);
-            }
-
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-    }
 }

@@ -1,6 +1,11 @@
 package domain;
 
-public class Transaction {
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+@Getter
+public class TransactionDto {
     private Long id ;
     private String title ;
     private Long amount;

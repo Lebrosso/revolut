@@ -2,12 +2,14 @@ package com.jacek.model;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
+import domain.TransactionDto;
+
 import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 public class DbConnector {
 
@@ -16,7 +18,6 @@ public class DbConnector {
 
     static {
         config.setDriverClassName("org.h2.Driver");
-        System.out.println(config.getDriverClassName());
         config.setJdbcUrl("jdbc:h2:mem:revol;DB_CLOSE_DELAY=-1;INIT=runscript from 'classpath:/createDb.sql'");
         config.setUsername("sa");
         config.setPassword("");
@@ -40,20 +41,23 @@ public class DbConnector {
         }
     }
 
-    public Connection getAllTransactions() throws SQLException, FileNotFoundException {
+    public List<TransactionDto> getAllTransactions() throws SQLException, FileNotFoundException {
 
+        List<TransactionDto> transactions = new ArrayList<>();
         Statement st = ds.getConnection().createStatement();
         try {
             ResultSet rs = st.executeQuery("SELECT * FROM BANK_TRANSACTION");
             while (rs.next()) {
-
+                TransactionDto trans =  new TransactionDto();
+                trans.setTitle(rs.getString("title"));
+                transactions.add(trans);
             }
 
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        return null;
+        return transactions;
     }
 
 }

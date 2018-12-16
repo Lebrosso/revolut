@@ -1,7 +1,7 @@
 CREATE TABLE BANK_TRANSACTION (id number, title varchar(20), amount number, sourceAcc number,
-destinationAcc number , accountId number);
+destinationAcc number );
 
-INSERT into BANK_TRANSACTION values (1, 'atm', 32, 1000, 2000);
+INSERT into BANK_TRANSACTION values (1, 'atm', 32, 1000,3000 );
 INSERT into BANK_TRANSACTION values (2, 'rbs', 25, 23, 1500);
 INSERT into BANK_TRANSACTION values (3, 'hsbc', 23, 7, 2000);
 INSERT into BANK_TRANSACTION values (4, 'pko', 25, 3, 6500);

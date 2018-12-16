@@ -7,7 +7,6 @@ public class App {
     private static final String BASE_URI = "http://localhost:8080/";
 
     public static void main(String[] args) {
-
         ResourceConfig rc = new ResourceConfig().registerClasses(TransferController.class);
         GrizzlyHttpServerFactory.createHttpServer(URI.create(BASE_URI), rc);
     }

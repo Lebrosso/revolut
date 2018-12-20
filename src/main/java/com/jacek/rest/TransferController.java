@@ -35,7 +35,7 @@ public class TransferController {
     @GET
     @Path("/makeTransfer/{amount}/{sourceAccount}/{destinationAccount}")
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_JSON })
-    public void makeTransfer(@NotNull @PathParam("amount") Long amount,@NotNull @PathParam("sourceAccount") Long sourceAccount,@NotNull @PathParam("destinationAccount") Long destinationAccount) throws SQLException {
+    public void makeTransfer(@NotNull @PathParam("amount") Long amount,@NotNull @PathParam("sourceAccount") Long sourceAccount,@NotNull @PathParam("destinationAccount") Long destinationAccount) throws SQLException, FileNotFoundException {
         DbConnector db = DbConnector.getInstance();
         db.makeTransfer(amount,sourceAccount,destinationAccount);
     }

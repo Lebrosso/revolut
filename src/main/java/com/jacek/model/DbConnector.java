@@ -27,13 +27,13 @@ public class DbConnector {
 
     public static void loadData() throws SQLException {
         Statement st = conn.createStatement();
-        String text = null;
+        String query = null;
         try {
-            text = new String(Files.readAllBytes(Paths.get("./src/main/resources/loadData.sql")), StandardCharsets.UTF_8);
+            query = new String(Files.readAllBytes(Paths.get("./src/main/resources/loadData.sql")), StandardCharsets.UTF_8);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        st.executeUpdate(text);
+        st.executeUpdate(query);
     }
 
     public static DbConnector getInstance() throws SQLException {
@@ -105,18 +105,18 @@ public class DbConnector {
             PreparedStatement st = conn.prepareStatement("UPDATE ACCOUNT SET credit = credit - ? WHERE id = ? ");
             st.setLong(1, amount);
             st.setLong(2, sourceAccount);
-            int i = st.executeUpdate();
+            st.executeUpdate();
 
             PreparedStatement stm = conn.prepareStatement("UPDATE ACCOUNT SET credit = credit + ? WHERE id = ? ");
             stm.setLong(1, amount);
             stm.setLong(2, destinationAccount);
-            int k = stm.executeUpdate();
+            stm.executeUpdate();
 
             PreparedStatement stmt = conn.prepareStatement("INSERT INTO BANK_TRANSACTION(title,amount,sourceAcc,destinationAcc) VALUES ( 'transaction' , ? , ?, ? ) ");
             stmt.setLong(1, amount);
             stmt.setLong(2, sourceAccount);
             stmt.setLong(3, destinationAccount);
-            int j = stmt.executeUpdate();
+            stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
         }

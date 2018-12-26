@@ -11,5 +11,4 @@ public class TransactionDto {
     private Long amount;
     private Long sourceAcc ;
     private Long destinationAcc;
-    private Long accountId;
 }

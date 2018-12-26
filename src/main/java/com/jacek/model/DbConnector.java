@@ -2,6 +2,7 @@ package com.jacek.model;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
+import domain.AccountDto;
 import domain.TransactionDto;
 
 import java.io.*;
@@ -24,23 +25,23 @@ public class DbConnector {
     public static DbConnector instance = null;
 
 
-    public static void loadData() throws SQLException, FileNotFoundException {
+    public static void loadData() throws SQLException {
         Statement st = conn.createStatement();
         String text = null;
         try {
-            text = new String(Files.readAllBytes(Paths.get("loadData.sql")), StandardCharsets.UTF_8);
+            text = new String(Files.readAllBytes(Paths.get("./src/main/resources/loadData.sql")), StandardCharsets.UTF_8);
         } catch (IOException e) {
             e.printStackTrace();
         }
         st.executeUpdate(text);
     }
 
-    public static DbConnector getInstance() throws SQLException, FileNotFoundException {
+    public static DbConnector getInstance() throws SQLException {
         if (instance == null) {
             config.setDriverClassName("org.h2.Driver");
             config.setJdbcUrl("jdbc:h2:mem:revol;DB_CLOSE_DELAY=-1;INIT=runscript from 'classpath:/createDb.sql'");
-            config.setUsername("sa");
-            config.setPassword("");
+            config.setUsername("revolut");
+            config.setPassword("revolut");
             config.addDataSourceProperty("cachePrepStmts", "true");
             config.addDataSourceProperty("prepStmtCacheSize", "250");
             config.addDataSourceProperty("prepStmtCacheSqlLimit", "2048");
@@ -54,7 +55,7 @@ public class DbConnector {
         }
     }
 
-    public List<TransactionDto> getAllTransactions() throws SQLException, FileNotFoundException {
+    public List<TransactionDto> getTransactions() throws SQLException {
 
         List<TransactionDto> transactions = new ArrayList<>();
         Statement st = conn.createStatement();
@@ -77,24 +78,49 @@ public class DbConnector {
         return transactions;
     }
 
-    public Long makeTransfer(Long amount, Long sourceAccount, Long destinationAccount) throws SQLException {
-        PreparedStatement st = conn.prepareStatement("UPDATE ACCOUNT SET credit = credit - ? WHERE id = ? ");
-        st.setLong(1, amount);
-        st.setLong(2, sourceAccount);
-        int i = st.executeUpdate();
+    public List<AccountDto> getAccounts() throws SQLException {
 
-        PreparedStatement stm = conn.prepareStatement("UPDATE ACCOUNT SET credit = credit + ? WHERE id = ? ");
-        stm.setLong(1, amount);
-        stm.setLong(2, destinationAccount);
-        int k = stm.executeUpdate();
+        List<AccountDto> accounts = new ArrayList<>();
+        Statement st = conn.createStatement();
+        try {
+            ResultSet rs = st.executeQuery("SELECT * FROM ACCOUNT");
+            while (rs.next()) {
+                AccountDto accountDto = new AccountDto();
+                accountDto.setId(rs.getLong("id"));
+                accountDto.setOwner(rs.getString("owner"));
+                accountDto.setCredit(rs.getLong("credit"));
+                accounts.add(accountDto);
+            }
 
-        PreparedStatement stmt = conn.prepareStatement("INSERT INTO BANK_TRANSACTION VALUES (id = 1 , title='test' , amount=amount , sourceAcc=sourceAccount, destinationAcc=destinationAccount ) ");
-        stm.setLong(1, amount);
-        stm.setLong(2, destinationAccount);
-        int j = stm.executeUpdate();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
-        return null;
+        return accounts;
     }
 
+    public void makeTransfer(Long amount, Long sourceAccount, Long destinationAccount) {
+        try {
+
+            PreparedStatement st = conn.prepareStatement("UPDATE ACCOUNT SET credit = credit - ? WHERE id = ? ");
+            st.setLong(1, amount);
+            st.setLong(2, sourceAccount);
+            int i = st.executeUpdate();
+
+            PreparedStatement stm = conn.prepareStatement("UPDATE ACCOUNT SET credit = credit + ? WHERE id = ? ");
+            stm.setLong(1, amount);
+            stm.setLong(2, destinationAccount);
+            int k = stm.executeUpdate();
+
+            PreparedStatement stmt = conn.prepareStatement("INSERT INTO BANK_TRANSACTION(title,amount,sourceAcc,destinationAcc) VALUES ( 'transaction' , ? , ?, ? ) ");
+            stmt.setLong(1, amount);
+            stmt.setLong(2, sourceAccount);
+            stmt.setLong(3, destinationAccount);
+            int j = stmt.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+    }
 
 }

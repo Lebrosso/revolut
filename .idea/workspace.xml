@@ -2,47 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db623c2b-e319-4805-b0b3-a2846fdc1773" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/apiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/classes/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/classes/com/jacek/model/DbConnector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/classes/com/jacek/rest/TransferController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/classes/com/jacek/rest/TransferService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/classes/domain/Transaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/HikariCP-3.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/activation-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/aopalliance-repackaged-2.5.0-b42.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/grizzly-framework-2.4.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/grizzly-http-2.4.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/grizzly-http-server-2.4.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/hk2-api-2.5.0-b42.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/hk2-locator-2.5.0-b42.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/hk2-utils-2.5.0-b42.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/javassist-3.22.0-CR2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/javax.annotation-api-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/javax.inject-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/javax.inject-2.5.0-b42.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/javax.ws.rs-api-2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/jaxb-api-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/jersey-client-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/jersey-common-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/jersey-container-grizzly2-http-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/jersey-hk2-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/jersey-media-jaxb-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/jersey-server-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/log4j-api-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/log4j-core-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/log4j-slf4j-impl-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/osgi-resource-locator-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/slf4j-api-1.7.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/revolut/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/apiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/apiTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -136,8 +96,8 @@
       <file leaf-file-name="apiTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/test/apiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="138">
+              <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -424,7 +384,7 @@
       <workItem from="1544898605409" duration="38955000" />
       <workItem from="1545251802405" duration="16711000" />
       <workItem from="1545315768811" duration="684000" />
-      <workItem from="1545776229171" duration="13989000" />
+      <workItem from="1545776229171" duration="14665000" />
     </task>
     <servers />
   </component>
@@ -456,9 +416,12 @@
     <history-entry file="apiTest - 2018.12.26 at 17h 05m 25s.xml">
       <configuration name="apiTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="apiTest - 2018.12.26 at 17h 06m 29s.xml">
+      <configuration name="apiTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94718000" />
+    <option name="totallyTimeSpent" value="95394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -466,7 +429,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073206" side_tool="true" weight="0.35612082" />
-      <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.78692496" visible="true" weight="0.23133236" />
+      <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.78692496" visible="true" weight="0.13323572" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -483,7 +446,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34340224" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.21307506" side_tool="true" visible="true" weight="0.23133236" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.21307506" side_tool="true" visible="true" weight="0.13323572" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22181553" />
       <window_info anchor="right" id="Bean Validation" order="3" />
@@ -883,8 +846,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/apiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        <state relative-caret-position="138">
+          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

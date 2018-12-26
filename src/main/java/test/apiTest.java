@@ -7,7 +7,7 @@ import java.net.URL;
 
 public class apiTest {
 
-    String url = "http://localhost:8080/transfer/listTransactions";
+    String url = "http://localhost:8080/transfer";
 
     @Test
     public void testConnection(){
@@ -15,7 +15,7 @@ public class apiTest {
         int resCode = 0;
         HttpURLConnection httpURLConnection = null;
         try {
-            httpURLConnection = (HttpURLConnection) new URL(url).openConnection();
+            httpURLConnection = (HttpURLConnection) new URL(url+"/listTransactions").openConnection();
             httpURLConnection.setRequestMethod("GET");
             httpURLConnection.connect();
             resCode = httpURLConnection.getResponseCode();

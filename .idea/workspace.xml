@@ -2,16 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db623c2b-e319-4805-b0b3-a2846fdc1773" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/apiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loadData.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/loadData.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jacek/model/DbConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jacek/model/DbConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jacek/rest/TransferController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jacek/rest/TransferController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/AccountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/AccountDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/TransactionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/TransactionDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/createDb.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/createDb.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jacek/model/DbConnector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jacek/rest/TransferController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jacek/rest/TransferController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/createDb.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/createDb.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/classes/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/classes/com/jacek/model/DbConnector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/classes/com/jacek/rest/TransferController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/classes/com/jacek/rest/TransferService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/classes/domain/Transaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/HikariCP-3.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/activation-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/aopalliance-repackaged-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/grizzly-framework-2.4.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/grizzly-http-2.4.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/grizzly-http-server-2.4.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/hk2-api-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/hk2-locator-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/hk2-utils-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/javassist-3.22.0-CR2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/javax.annotation-api-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/javax.inject-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/javax.inject-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/javax.ws.rs-api-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/jaxb-api-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/jersey-client-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/jersey-common-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/jersey-container-grizzly2-http-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/jersey-hk2-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/jersey-media-jaxb-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/jersey-server-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/log4j-api-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/log4j-core-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/log4j-slf4j-impl-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/osgi-resource-locator-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/slf4j-api-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut/index.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +54,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/revolut$App.ic" NAME="App Coverage Results" MODIFIED="1545303815889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/revolut$apiTest.ic" NAME="apiTest Coverage Results" MODIFIED="1545840213334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -66,17 +100,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1649">
-              <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createDb.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/createDb.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" selection-start-column="32" selection-end-column="32" />
+            <state relative-caret-position="218">
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
             </state>
           </provider>
         </entry>
@@ -93,8 +118,29 @@
       <file leaf-file-name="TransferController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jacek/rest/TransferController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+            <state relative-caret-position="425">
+              <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbConnector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jacek/model/DbConnector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-146">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apiTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/apiTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,27 +150,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DbConnector.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jacek/model/DbConnector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="114" column="126" selection-start-line="114" selection-start-column="126" selection-end-line="114" selection-end-column="126" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/AccountDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -156,7 +181,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jacek/rest/TransferService.java" />
         <option value="$PROJECT_DIR$/createDb.sql" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Transaction.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/createDb.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/loadData.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6e633822-c4ae-47f6-a0ee-d8a5c42ab048/console.sql" />
@@ -167,6 +191,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jacek/rest/TransferController.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/AccountDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jacek/model/DbConnector.java" />
+        <option value="$PROJECT_DIR$/src/main/test/testApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/testApi.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/test/apiTest.java" />
       </list>
     </option>
   </component>
@@ -244,40 +272,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jacek" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revolut" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revolut" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jacek" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revolut" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revolut" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jacek" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revolut" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revolut" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revolut" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revolut" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="revolut" type="b2602c69:ProjectViewProjectNode" />
@@ -305,6 +300,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jacek\IdeaProjects\revolut\src\main\java" />
       <recent name="C:\Users\Jacek\IdeaProjects\revolut\src\main\resources" />
       <recent name="C:\Users\Jacek\IdeaProjects\revolut" />
     </key>
@@ -321,7 +317,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.apiTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="revolut" />
@@ -340,6 +336,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="apiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="revolut" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.apiTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -376,9 +395,11 @@
     <list>
       <item itemvalue="Application.Starter" />
       <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.apiTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.apiTest" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Starter" />
       </list>
@@ -403,12 +424,41 @@
       <workItem from="1544898605409" duration="38955000" />
       <workItem from="1545251802405" duration="16711000" />
       <workItem from="1545315768811" duration="684000" />
-      <workItem from="1545776229171" duration="7290000" />
+      <workItem from="1545776229171" duration="13989000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="apiTest - 2018.12.26 at 17h 00m 24s.xml">
+      <configuration name="apiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="apiTest - 2018.12.26 at 17h 01m 16s.xml">
+      <configuration name="apiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="apiTest - 2018.12.26 at 17h 02m 04s.xml">
+      <configuration name="apiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="apiTest - 2018.12.26 at 17h 02m 24s.xml">
+      <configuration name="apiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="apiTest - 2018.12.26 at 17h 02m 34s.xml">
+      <configuration name="apiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="apiTest - 2018.12.26 at 17h 03m 37s.xml">
+      <configuration name="apiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="apiTest - 2018.12.26 at 17h 03m 43s.xml">
+      <configuration name="apiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="apiTest - 2018.12.26 at 17h 04m 44s.xml">
+      <configuration name="apiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="apiTest - 2018.12.26 at 17h 05m 25s.xml">
+      <configuration name="apiTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88019000" />
+    <option name="totallyTimeSpent" value="94718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -416,25 +466,26 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073206" side_tool="true" weight="0.35612082" />
-      <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.7911548" weight="0.2057101" />
+      <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.78692496" visible="true" weight="0.23133236" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.10175695" />
+      <window_info anchor="right" id="Database" order="3" weight="0.20424597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5294118" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35612082" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3672496" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31796503" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34340224" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.21307506" side_tool="true" visible="true" weight="0.23133236" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21156661" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22181553" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -443,7 +494,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="8" sideWeight="0.49926794" visible="true" weight="0.43402225" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.20884521" side_tool="true" weight="0.2057101" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -491,27 +541,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/apiTest.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="58" />
+      <option name="time" value="59" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jacek/rest/TransferController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/TransactionDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jacek/model/DbConnector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -730,13 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/17d3ae7f-1eb6-4cb9-af74-b254ee4a1d8b/console_1.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -785,10 +822,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jacek/rest/TransferController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/loadData.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        <state relative-caret-position="85">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -799,20 +836,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/loadData.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/test/testApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/AccountDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -823,10 +850,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/AccountDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jacek/rest/TransferController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jacek/model/DbConnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="114" column="126" selection-start-line="114" selection-start-column="126" selection-end-line="114" selection-end-column="126" />
+        <state relative-caret-position="-146">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/apiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

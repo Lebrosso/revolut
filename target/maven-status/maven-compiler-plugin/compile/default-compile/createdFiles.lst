@@ -1,5 +1,0 @@
-App.class
-domain\Transaction.class
-com\jacek\model\DbConnector.class
-com\jacek\rest\TransferController.class
-com\jacek\rest\TransferService.class

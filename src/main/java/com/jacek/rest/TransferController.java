@@ -1,9 +1,7 @@
 package com.jacek.rest;
 
-import com.jacek.model.DbConnector;
 import domain.AccountDto;
 import domain.TransactionDto;
-
 import javax.validation.constraints.NotNull;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;

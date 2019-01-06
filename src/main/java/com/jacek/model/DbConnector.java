@@ -83,7 +83,7 @@ public class DbConnector {
         List<AccountDto> accounts = new ArrayList<>();
         Statement st = conn.createStatement();
         try {
-            ResultSet rs = st.executeQuery("SELECT * FROM ACCOUNT");
+            ResultSet rs = st.executeQuery("SELECT * FROM ACCOUNT ORDER BY id");
             while (rs.next()) {
                 AccountDto accountDto = new AccountDto();
                 accountDto.setId(rs.getLong("id"));

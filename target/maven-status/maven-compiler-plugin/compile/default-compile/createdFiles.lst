@@ -1,0 +1,7 @@
+domain\TransactionDto.class
+com\jacek\model\DbConnector.class
+test\apiTest.class
+App.class
+domain\AccountDto.class
+com\jacek\rest\TransferController.class
+com\jacek\rest\TransferService.class
